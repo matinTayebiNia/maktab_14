@@ -1,0 +1,21 @@
+{
+    "name": "lenovo/create-test-mvc-project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "./App"
+        },"files": [
+        "App/Helpers/helper.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "matinTayebiNia",
+            "email": "81463679+matinTayebiNia@users.noreply.github.com"
+        }
+    ],
+
+    "require": {
+        "ext-pdo": "*",
+        "vlucas/phpdotenv": "^5.4"
+    }
+}
